@@ -1,0 +1,23 @@
+{
+    "name": "pug-render",
+    "description": "an improved render() function for pug templates",
+    "version": "0.0.0",
+    "main": "src/index.js",
+    "files": ["src"],
+    "scripts": {
+        "test": "mocha --async-only",
+        "test-watch": "npm test -- --watch --watch-extensions pug,foo",
+        "patch": "npm version patch && npm publish",
+        "minor": "npm version minor && npm publish",
+        "major": "npm version major && npm publish",
+        "postpublish": "git push origin master --follow-tags"
+    },
+    "dependencies": {
+        "debug": "^3.1.0",
+        "pug": "^2.0.0-rc.4"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1"
+    }
+}
