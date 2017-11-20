@@ -1,11 +1,10 @@
 {
     "name": "pug-render",
+    "author": "Dan Neumann <danrodneu@gmail.com> (https://github.com/danneu)",
     "description": "an improved render() function for pug templates",
     "version": "0.0.1",
     "main": "src/index.js",
-    "files": [
-        "src"
-    ],
+    "files": ["src"],
     "scripts": {
         "test": "mocha --async-only",
         "test-watch": "npm test -- --watch --watch-extensions pug,foo",
@@ -21,5 +20,11 @@
     "devDependencies": {
         "chai": "^4.1.2",
         "mocha": "^4.0.1"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/danneu/pug-render"
+    },
+    "keywords": ["pug", "html", "template"],
+    "license": "MIT"
 }
