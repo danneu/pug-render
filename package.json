@@ -1,6 +1,6 @@
 {
     "name": "pug-render",
-    "author": "Dan Neumann <danrodneu@gmail.com> (https://github.com/danneu)",
+    "author": "https://github.com/danneu",
     "description": "an improved render() function for pug templates",
     "version": "1.0.0",
     "main": "src/index.js",
@@ -16,8 +16,8 @@
         "postpublish": "git push origin master --follow-tags"
     },
     "dependencies": {
-        "debug": "^3.1.0",
-        "pug": "^2.0.0-rc.4"
+        "debug": "^4.1.1",
+        "pug": "^2.0.3"
     },
     "devDependencies": {
         "chai": "^4.1.2",
