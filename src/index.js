@@ -24,11 +24,16 @@ const reserved = new Set([
     'doctype',
     'filename',
     'filters',
+    'filterOptions',
+    'filterAliases',
     'globals',
     'inlineRuntimeFunctions',
+    'includeSources',
     'name',
+    'plugins',
     'pretty',
     'self',
+    'templateName',
 ])
 
 module.exports = (root, _options = {}) => {
