@@ -2,7 +2,7 @@
     "name": "pug-render",
     "author": "https://github.com/danneu",
     "description": "an improved render() function for pug templates",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "src/index.js",
     "files": [
         "src"
